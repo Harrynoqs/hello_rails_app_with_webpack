@@ -94,7 +94,7 @@ To setup and install this sample ROR Blog project, follow the below steps:
 - Clone this project by the command: 
 
 ```
-$ git clone https://github.com/chuaindia/hello-rails-react-one-app.git
+$ https://github.com/Harrynoqs/hello_rails_app_with_webpack.git
 ```
 
 - Then switch to the project folder by the bellow query:
