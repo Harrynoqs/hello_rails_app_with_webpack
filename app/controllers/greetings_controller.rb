@@ -1,3 +1,16 @@
 class GreetingsController < ApplicationController
-  def index; end
-end
+    def greeting
+      greetings = [
+        "Hello!",
+        "Jambo",
+        "Namaste",
+        "Hakuna Matata",
+        "Asalaam"
+        "Mio Amore"
+       
+      ]
+  
+      @greeting = greetings.sample
+      render :greeting
+    end
+  end
