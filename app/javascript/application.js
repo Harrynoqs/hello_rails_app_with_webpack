@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './components/App';
 import Greeting from './components/Greeting';
-import store from './store';
+import store from './components/redux/store';
 
 const router = createBrowserRouter([
   {
